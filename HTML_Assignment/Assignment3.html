@@ -8,7 +8,7 @@
     <title>Assignment3</title>
     <style>
         * {
-            margin: 0.6rem;
+            margin: 0.5rem;
         }
 
         table,
@@ -26,11 +26,19 @@
         }
 
         .info {
-            width: 50em;
+            width: 40em;
         }
-        .container{
-            margin-left: 5rem;
-            margin-top: 1rem;
+
+        .container {
+            margin: 30px 170px;
+        }
+
+        .total {
+            margin-left: 682px;
+        }
+
+        .torow tr td {
+            padding: 10px;
         }
     </style>
 </head>
@@ -79,44 +87,85 @@
                 <tr>
                     <th>Start date</th>
                     <th>Finish date</th>
-                    <th colspan="8">Job address</th>
-                    <th>Client name</th>
+                    <th style="width:550px">Job address</th>
+                    <th style="width:200px">Client name</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td colspan="8"></td>
-                    <td></td>
-                </tr>
-            </tbody>
-
-            <thead>
-                <tr>
-                    <th>Item Id</th>
-                    <th colspan="6">Description</th>
-                    <th>Quantity</th>
-                    <th colspan="2">Unit Price</th>
-                    <th colspan="2">Line Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td colspan="7"></td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
             </tbody>
         </table>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width:67px">Item Id</th>
+                    <th style="width:420px">Description</th>
+                    <th>Quantity</th>
+                    <th style="width:104px">Unit Price</th>
+                    <th style="width:200px">Line Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="total">
+            <tbody class="torow">
+                <tr>
+                    <td style="width:124px">SUBTOTAL</td>
+                    <td style="width: 220px;">-</td>
+                </tr>
+                <tr>
+                    <td style="width:124px">EXTRAS</td>
+                    <td style="width: 220px;">-</td>
+                </tr>
+                <tr>
+                    <td style="width:124px">TOTAL</td>
+                    <td style="width: 220px;">-</td>
+                </tr>
+                <tr>
+                    <td style="width:124px">PAID</td>
+                    <td style="width: 220px;">-</td>
+                </tr>
+                <tr>
+                    <td style="width:124px">TOTAL DUE</td>
+                    <td style="width: 220px;">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="text-align:center;background-color: darkgray;height:32px;padding:10px;">
+        <section>Thank you for your business..!</section>
+        <marquee style="color:red">All payment mode accepted</marquee>
     </div>
 
 
 </body>
-<footer>
-    <p><em> Thank you for your business..! </em></p>
-</footer>
+
 
 </html>
