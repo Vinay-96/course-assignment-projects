@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        progress {
+            width: 100%;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="background-color: aquamarine; height: 40px">
+            Good things take time
+        </h1>
+    </center>
+    <progress min="1" max="100" id="loading"></progress>
+    <script>
+        var loder = 10;
+        function callLoder() {
+            if (loder <= 100) {
+                loder = loder + 10;
+                document.getElementById("loading").value = loder;
+            }
+            if (loder === 100) {
+                window.open("https://images.hindustantimes.com/img/2021/05/25/1600x900/photo-1589400554239-7c6cf8393a6e_1621963758050_1621963763626.jpg","_blank");
+            }
+        }
+        setInterval("callLoder()", 1000);
+    </script>
+</body>
+
+</html>

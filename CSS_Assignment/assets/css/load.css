@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.load {
+  background: red;
+  height: 5px;
+  width: 100%;
+  animation-name: loading;
+  animation: loading 3s;
+}
+
+@keyframes loading {
+  0% {
+    width: 10%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+nav {
+  background: linear-gradient(to right, grey, black);
+  color: white;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin: 15px;
+  text-align: justify;
+}
+nav > ul:hover {
+  
+  background: linear-gradient(to left, white, black);
+}
+
+section {
+  text-align: center;
+}
+.fa {
+  font-size: 10rem;
+  color: red;
+}
+.fa:hover {
+  font-size: 20rem;
+  transition: 3s;
+}

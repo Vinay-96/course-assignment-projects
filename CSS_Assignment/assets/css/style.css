@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to left, grey, black);
+}
+.container {
+  height: 200px;
+  margin: 90px 49px;
+}
+
+/* Dogecoin */
+.box-right {
+  position: absolute;
+  transition: 2s;
+  left: 80%;
+}
+.box-right:hover {
+  opacity: 0.5;
+
+  transform: rotateY(180deg);
+}
+
+/* bitcoin */
+.box-left {
+  position: absolute;
+  transition: 2s;
+  right: 80%;
+}
+.box-left:hover {
+  opacity: 0.5;
+
+  transform: rotateY(180deg);
+}
+
+/* etherium */
+.box-top {
+  position: absolute;
+  transition: 2s;
+  left: 54%;
+}
+.box-top:hover {
+  opacity: 0.5;
+
+  transform: rotateX(180deg);
+}
+
+/* litecoin */
+.box-bottom {
+  position: absolute;
+  transition: 2s;
+  left: 28%;
+}
+.box-bottom:hover {
+  opacity: 0.5;
+
+  transform: rotateX(180deg);
+}
