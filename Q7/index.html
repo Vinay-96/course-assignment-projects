@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #fffc00, #ffffff);
+        color: purple;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: larger;
+        font-weight: bold;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      #output {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h1>Programm to check vowel or consonant</h1>
+    </center>
+    <hr />
+    <div class="container">
+      <label for="alphaCheck">Enter the alphabet here : </label>
+
+      <input type="text" placeholder="Enter here" class="alphaInput" />
+
+      <button type="submit" id="check">Check</button>
+    </div>
+
+    <div id="output"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

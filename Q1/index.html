@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #fffc00, #ffffff);
+        color: purple;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: larger;
+        font-weight: bold;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      #output {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h2>Programm to find whether a given year is leap year or not..?</h2>
+    </center>
+    <hr />
+
+    <div class="container">
+      <label for="yearInput">
+        <input type="number" class="yearInput" placeholder="Enter the year" />
+      </label>
+      <button type="submit" id="checkYear">Check</button>
+    </div>
+    <div id="output"></div>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #fffc00, #ffffff);
+        color: purple;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: larger;
+        font-weight: bold;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      #output {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Program to check for a valid triangle</h1>
+    </center>
+    <hr />
+    <div class="container">
+      <label for="angle1">Enter first angel : </label>
+      <input type="number" class="angleInput" placeholder="First angel" />
+      <label for="angle2">Enter second angel : </label>
+      <input type="number" class="angleInput" placeholder="Second angel" />
+      <label for="angle3">Enter third angel : </label>
+      <input type="number" class="angleInput" placeholder="Third angel" />
+
+      <button type="submit" id="isTriangle">Check</button>
+    </div>
+
+    <div id="output"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
